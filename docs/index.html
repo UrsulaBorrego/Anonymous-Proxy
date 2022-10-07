@@ -7,25 +7,80 @@
   <title>Evaluación final Úrsula Borrego</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/main.css" />
-  <link rel="icon" href="./assets/images/favicon.png" />
+  <link rel="icon" href="/assets/images/favicon.png" />
 </head>
 
 <body>
+
   <header>
-    <nav class="menu">
-      <img class="menu" src="../images/ico-menu.svg" alt="menu">
+    <nav class="menu" href="https://adalab.es/">
+      <img class="img-menu" src="./assets/images/ico-menu.svg" alt="menu">
     </nav> 
-    <!-- revisar si nav es la etiqueta adecuada o mejor div -->
+    <!-- <img class="background-img" src="./assets/images/cover.jpeg" alt="imagen de fondo de edificio"> -->
+    <!-- revisar si esta imagen va aquí o directamente en los estilos -->
     <h1 class="title">Anonymus proxy</h1>
     <p class="subtitle-header">In hac habitasse platea dictumst.</p>
-    <p class="ball"></p>
-    <img class="scroll-down" src="/public/assets/images/ico-scroll-down.svg" alt="scroll-down" >
-    <!-- revisar si hay que coger de aquí la imagen -->
+    <p class="ball-header">
+      <img class="scroll-down" src="./assets/images/ico-scroll-down.svg" alt="scroll para abajo" >
+    </p>
   </header>
 
-  <!-- <p class="ball"></p>
-  imagen de la flecha -->
+  <main class="main">
 
+    <hero>
+      <p>Insomnia tips</p>
+      <h2>Looking through a window</h2>
+      <!-- text-transform: capitalize -->
+      <p>Donec acusam, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+      <button class="button-white">Go</button>
+    </hero>
+
+    <section>
+      <h2>3 Reasons to purchase</h2>
+      <!-- text-transform: capitalize -->
+      <article class="article1">
+        <h3>Ut sed metus</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </article>
+      <article class="article2">
+        <h3>Curabitur ac erat</h3>
+        <p>Mauris mattis urna quis loren molestie.</p>
+      </article>
+      <article class="article3">
+        <h3>Morbi dictum</h3>
+        <p>Aliquam in dolor et dolor tincidunt.</p>
+      </article>
+      <button class="button-orange">More reasons</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="ball-footer">
+      <img class="arrow" src="./assets/images/ico-arrow.svg" alt="flecha para arriba" >
+    </p>
+    <nav class="nav-footer1">
+      <ul>
+        <li href="https://adalab.es/">articles</li>
+        <li href="https://adalab.es/">books</li>
+        <li href="https://adalab.es/">events</li>
+        <li href="https://adalab.es/">reasons</li>
+        <li href="https://adalab.es/">tips</li>
+      </ul>
+    </nav>
+    <nav class="nav-footer2">
+      <ul>
+        <li href="https://adalab.es/">twitter</li>
+        <li href="https://adalab.es/">instagram</li>
+        <li href="https://adalab.es/">mastodon.social</li>
+      </ul>
+      <p>&copy;2022</p>
+      <p> we <img class="icon-heart" type="image/png" src="./assets/images/orangeheart.png" alt="icono corazón"/> components
+      </p>
+      <!-- poner tamaño al corazón de 16x16px -->
+      <i class="fa-solid fa-envelope"></i>
+    </nav>
+  </footer>
+  
 </body>
 
 </html>
