@@ -1,8 +1,22 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  background-color: $color-dark-blue;
+  text-transform: uppercase;
+  // position: fixed;
+  .ball-footer {
+    .arrow {}
+  }
+  .nav-footer1 {
+  }
+  .nav-footer2 {
+  }
+  .copy {
+    text-transform: none;
+  }
+  .phraseicon {
+    text-transform: none;
+    .icon-heart {
+      width: 16px;
+      height: 16px;
+    }
+  }
 }

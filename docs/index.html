@@ -5,19 +5,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Evaluación final Úrsula Borrego</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/main.css" />
-  <link rel="icon" href="/assets/images/favicon.png" />
 </head>
 
 <body>
+
+  <!-- 
+  <main>
+    
+    
+  </main>
+   -->
 
   <header>
     <nav class="menu" href="https://adalab.es/">
       <img class="img-menu" src="./assets/images/ico-menu.svg" alt="menu">
     </nav> 
-    <!-- <img class="background-img" src="./assets/images/cover.jpeg" alt="imagen de fondo de edificio"> -->
-    <!-- revisar si esta imagen va aquí o directamente en los estilos -->
+    <picture class="background-picture">
+      <img class="background-img" src="./assets/images/cover.jpeg" alt="imagen de fondo de edificio">
+    </picture>
     <h1 class="title">Anonymus proxy</h1>
     <p class="subtitle-header">In hac habitasse platea dictumst.</p>
     <p class="ball-header">
@@ -28,29 +37,27 @@
   <main class="main">
 
     <hero>
-      <p>Insomnia tips</p>
-      <h2>Looking through a window</h2>
-      <!-- text-transform: capitalize -->
-      <p>Donec acusam, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
-      <button class="button-white">Go</button>
+      <p class="pretitle-hero">Insomnia tips</p>
+      <h2 class="title-hero">Looking through a window</h2>
+      <p class="p-hero">Donec acusam, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+      <a class="button-white">Go</a>
     </hero>
 
-    <section>
-      <h2>3 Reasons to purchase</h2>
-      <!-- text-transform: capitalize -->
+    <section class="articles">
+      <h2 class="title-articles">3 Reasons to purchase</h2>
       <article class="article1">
-        <h3>Ut sed metus</h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <h3 class="title-article1">Ut sed metus</h3>
+        <p class="text-article1">Lorem ipsum dolor sit amet consectetur.</p>
       </article>
       <article class="article2">
-        <h3>Curabitur ac erat</h3>
-        <p>Mauris mattis urna quis loren molestie.</p>
+        <h3 class="title-article2">Curabitur ac erat</h3>
+        <p class="text-article2">Mauris mattis urna quis loren molestie.</p>
       </article>
       <article class="article3">
-        <h3>Morbi dictum</h3>
-        <p>Aliquam in dolor et dolor tincidunt.</p>
+        <h3 class="title-article3">Morbi dictum</h3>
+        <p class="text-article3">Aliquam in dolor et dolor tincidunt.</p>
       </article>
-      <button class="button-orange">More reasons</button>
+      <a class="button-orange">More reasons</a>
     </section>
   </main>
 
@@ -58,26 +65,24 @@
     <p class="ball-footer">
       <img class="arrow" src="./assets/images/ico-arrow.svg" alt="flecha para arriba" >
     </p>
-    <nav class="nav-footer1">
-      <ul>
-        <li href="https://adalab.es/">articles</li>
-        <li href="https://adalab.es/">books</li>
-        <li href="https://adalab.es/">events</li>
-        <li href="https://adalab.es/">reasons</li>
-        <li href="https://adalab.es/">tips</li>
+    <nav>
+      <ul class="nav-footer1">
+        <li><a href="https://adalab.es/">books</li>
+        <li><a href="https://adalab.es/">articles</li>
+        <li><a href="https://adalab.es/">events</li>
+        <li><a href="https://adalab.es/">reasons</li>
+        <li><a href="https://adalab.es/">tips</li>
       </ul>
     </nav>
-    <nav class="nav-footer2">
-      <ul>
-        <li href="https://adalab.es/">twitter</li>
-        <li href="https://adalab.es/">instagram</li>
-        <li href="https://adalab.es/">mastodon.social</li>
+    <nav>
+      <ul class="nav-footer2">
+        <li><a href="https://adalab.es/">twitter</li>
+        <li><a href="https://adalab.es/">instagram</li>
+        <li><a href="https://adalab.es/">mastodon.social</li>
       </ul>
-      <p>&copy;2022</p>
-      <p> we <img class="icon-heart" type="image/png" src="./assets/images/orangeheart.png" alt="icono corazón"/> components
+      <p class="copy">&copy;2022</p>
+      <p class="phraseicon"> we <img class="icon-heart" type="image/png" src="./assets/images/orange-heart.png" alt="icono corazón"/> components
       </p>
-      <!-- poner tamaño al corazón de 16x16px -->
-      <i class="fa-solid fa-envelope"></i>
     </nav>
   </footer>
   

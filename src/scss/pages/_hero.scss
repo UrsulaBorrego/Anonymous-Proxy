@@ -1,0 +1,22 @@
+.hero{
+    .pretitle-hero {
+        color: $color-light-blue;
+        font-family: $font-familyRoboto;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+    .title-hero {
+        font-family: $font-familyRoboto;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    .p-hero {
+        font-family: $font-familyRoboto;
+        font-size: 18px;
+        color: #4a4a4a;
+    }
+    .button-white {
+
+    }
+}
