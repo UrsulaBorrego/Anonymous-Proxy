@@ -20,18 +20,19 @@
   </main>
   <include src="./partials/footer.html"> </include> -->
 
-  <header>
+  <header class="header">
     <nav class="menu" href="https://adalab.es/">
       <img class="img-menu" src="./assets/images/ico-menu.svg" alt="menu">
-    </nav> 
-    <picture class="background-picture">
-      <img class="background-img" src="./assets/images/cover.jpeg" alt="imagen de fondo de edificio">
-    </picture>
-    <h1 class="title">Anonymus proxy</h1>
-    <p class="subtitle-header">In hac habitasse platea dictumst.</p>
-    <p class="ball-header">
-      <img class="scroll-down" src="./assets/images/ico-scroll-down.svg" alt="scroll para abajo" >
-    </p>
+    </nav>
+    <section class="title-subtitle-header">
+      <h1 class="title">Anonymous proxy</h1>
+      <p class="subtitle-header">In hac habitasse platea dictumst.</p>
+    </section>
+    <div class="ball-header">
+      <p class="ball-scroll">
+        <img class="scroll-down" src="./assets/images/ico-scroll-down.svg" alt="scroll para abajo" >
+      </p>
+  </div>
   </header>
 
   <main class="main">
@@ -80,10 +81,11 @@
         <li><a href="https://adalab.es/">instagram</li>
         <li><a href="https://adalab.es/">mastodon.social</li>
       </ul>
-      <p class="copy">&copy;2022</p>
-      <p class="phraseicon"> we <img class="icon-heart" type="image/png" src="./assets/images/orange-heart.png" alt="icono corazón"/> components
-      </p>
     </nav>
+    <section class="copy-phraseicon">
+      <p class="copy">&copy;2022</p>
+      <p class="phraseicon"> we <img class="icon-heart" type="image/png" src="./assets/images/orange-heart.png" alt="icono corazón"/> components</p>
+    </section>
   </footer>
   
 </body>
