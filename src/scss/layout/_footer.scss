@@ -1,7 +1,9 @@
 .footer {
   background-color: $color-dark-blue;
   text-transform: uppercase;
-  // position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5vh;
   .ball-footer {
     display: flex;
     justify-content: center;
@@ -23,20 +25,32 @@
     }
   }
   .nav-footer1 {
+    text-align: center;
+    margin-top: 65px;
+  }
+  .nav-footer2{
+    text-align: center;
+  }
+  .link-footer {
     text-decoration: none;
     font-family: $font-familyRoboto;
     color: $color-white;
   }
-  .nav-footer2 {
-  }
-  .copy {
-    text-transform: none;
-  }
-  .phraseicon {
-    text-transform: none;
-    .icon-heart {
-      width: 16px;
-      height: 16px;
+  .copy-phraseicon {
+    text-align: center;
+    .copy {
+      text-transform: none;
+      font-family: $font-familyRoboto;
+      color: $color-white;
+    }
+    .phraseicon {
+      text-transform: none;
+      font-family: $font-familyRoboto;
+      color: $color-white;
+      .icon-heart {
+        width: 16px;
+        height: 16px;
+      }
     }
   }
 }
