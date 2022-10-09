@@ -1,8 +1,8 @@
 .header {
-  height: 80vh;
+  height: 100vh;
   background-image: url("../images/cover.jpeg");
   background-repeat: no-repeat;
-  background-size: 140vh 160vw;
+  background-size: 180vh 200vw;
   background-position: 50%;
 
   .menu{
@@ -32,15 +32,13 @@
       font-size: 13vw;//42px;
       font-weight: bold;
       text-transform: uppercase;
-      transform: translateY(-100%);
+      transform: translateY(-35%);
     }
     .subtitle-header {
       font-family: $font-familyRoboto;
       color: $color-white;
       position: absolute;
       text-align: center;
-      transform: translateY(-430%);
-      //padding-bottom: 13vh;
     }
   }
 
@@ -49,7 +47,7 @@
     justify-content: center;
     position: absolute;
     z-index: 100;
-    transform: translateY(-150%);
+    transform: translateY(150%);
     .ball-scroll {
       width: 37px;
       height: 37px;
@@ -59,9 +57,8 @@
       justify-content: center;
       align-items: center;
       .scroll-down {
-        width: 50%;
-        height: 50%;
-        align-content: center;
+        width: 45%;
+        height: 45%;
       }
     }
   }
