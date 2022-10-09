@@ -3,9 +3,29 @@
   text-transform: uppercase;
   // position: fixed;
   .ball-footer {
-    .arrow {}
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    transform: translateY(-50%);
+    .ball-arrow{
+      width: 45px;
+      height: 45px;
+      background-color: $color-white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .arrow {
+        width: 24px;
+        height: 20.6px;
+      }
+    }
   }
   .nav-footer1 {
+    text-decoration: none;
+    font-family: $font-familyRoboto;
+    color: $color-white;
   }
   .nav-footer2 {
   }

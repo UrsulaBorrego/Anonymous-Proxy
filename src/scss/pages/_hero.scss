@@ -1,22 +1,33 @@
 .hero{
+    font-family: $font-familyRoboto;
+    padding-inline: 3.5vw 3.5vw;
+    margin-bottom: 8vh;
+    display: inline-block;
     .pretitle-hero {
         color: $color-light-blue;
-        font-family: $font-familyRoboto;
         font-size: 14px;
         text-transform: capitalize;
+        margin-top: 10%;
+        margin-bottom: 2%;
     }
     .title-hero {
-        font-family: $font-familyRoboto;
+        font-family: $font-familyRobotoSlab;
         font-size: 24px;
         font-weight: bold;
         text-transform: capitalize;
     }
     .p-hero {
-        font-family: $font-familyRoboto;
         font-size: 18px;
         color: #4a4a4a;
+        margin-top: 7%;//20px;
+        margin-bottom: 15%;
     }
     .button-white {
-
+        border: solid 3px $color-orange;
+        border-radius: 50px;
+        color: $color-orange;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 2% 8%;
     }
 }
