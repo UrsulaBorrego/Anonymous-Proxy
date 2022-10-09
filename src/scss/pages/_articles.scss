@@ -1,68 +1,3 @@
-// .articles {
-//     border: solid 3px magenta;
-//     background-color: #eff9ff;
-//     // display: flex;
-//     // flex-direction: column;
-
-//     .title-articles {
-//     font-family: $font-familyRobotoSlab;
-//     font-size: 24px;
-//     font-weight: bold;
-//     text-transform: capitalize;
-//     margin-bottom: 49px;
-//     // display: flex;
-//     // flex-direction: column;
-//     // align-items: center;
-//     // transform: translateY(80%);
-//     }
-//     .article {
-//         width: 80%;
-//         border: solid 3px magenta;
-//         // margin-left: 68px;
-//         // margin-right: 68px;
-//         font-family: $font-familyRoboto;
-//         font-size: 18px;
-//         margin-top: 8%;
-//         // display: flex;
-//         // flex-direction: column;
-//         // justify-content: center;
-//         // align-content: center;
-//         .title-article {
-//             font-family: $font-familyRobotoSlab;
-//             font-weight: bold;
-//         }
-//         .text-article {
-            
-//         }
-//     }
-//     // .art1 {}
-//     // .art2 {}
-//     // .art3 {}
-//     .button-orange {
-//         // display: flex;
-//         // justify-content: center;
-//         // align-content: center;
-//         border: solid 3px $color-orange;
-//         border-radius: 50px;
-//         // box-sizing: border-box;
-//         background-color: $color-orange;
-//         font-family: $font-familyRoboto;
-//         color: $color-white;
-//         font-size: 20px;
-//         font-weight: 500;
-
-//         // padding-block: -40px -40px;
-//         margin-block: 15%;
-//         // margin-left: 68px;
-//         // margin-right: 68px;
-//         // margin-inline: 68px 68px;
-//         border: solid 3px green;
-//     }
-// }
-
-// RESOLVER CENTRADO ARTÍCULOS, MIN BUTTON Y FALTA DE ESTILOS LETRAS
-
-
 .articles {
     border: solid 3px magenta;
     background-color: #eff9ff;
@@ -73,18 +8,18 @@
     .title-articles {
         border: solid 3px green;
         font-family: $font-familyRobotoSlab;
-        font-size: 24px;
+        font-size: 1.5em;
         font-weight: bold;
         text-transform: capitalize;
-        margin-block: 29px 49px;
-        padding-inline: 20px;
+        margin-top: 1.3em;
+        padding-inline: 0.8em;
     }
     .article {
         width: 80%;
         border: solid 3px magenta;
         font-family: $font-familyRoboto;
-        font-size: 18px;
-        margin-top: 8%;
+        font-size: 1.125em;
+        margin-top: 2.5em;
         .title-article {
             border: solid 3px mediumblue;
             font-family: $font-familyRobotoSlab;
@@ -100,11 +35,21 @@
         background-color: $color-orange;
         font-family: $font-familyRoboto;
         color: $color-white;
-        font-size: 20px;
+        font-size: 1.25em;
         font-weight: 500;
         border: solid 3px green;
-        padding: 8px 27px;
-        margin-block: 41px 60px;
-        margin-inline: 68px;
+        padding: 0.4em 1.4em;
+        margin-block: 2.563em 3em;
+        margin-inline: 4.25em;
     }
 }
+
+// RESOLVER CENTRADO TEXTOS Y BUTTON
+
+// @media and all (max-width 320px) {
+
+// }
+
+// @media and all (max-width 768px) {
+
+// }

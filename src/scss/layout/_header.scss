@@ -6,8 +6,8 @@
   background-position: 50%;
 
   .menu{
-    width: 30px;
-    height: 30px;
+    width: 1.875em;
+    height: 1.875em;
     background-color: $color-medium-blue;
     position: fixed;
     z-index: 100;
@@ -29,7 +29,7 @@
     .title {
       font-family: $font-familyRobotoSlab;
       color: $color-white;
-      font-size: 13vw;//42px;
+      font-size: 2.625em;
       font-weight: bold;
       text-transform: uppercase;
       transform: translateY(-35%);
@@ -47,10 +47,10 @@
     justify-content: center;
     position: absolute;
     z-index: 100;
-    transform: translateY(150%);
+    transform: translateY(50%);
     .ball-scroll {
-      width: 37px;
-      height: 37px;
+      width: 2.313em;
+      height: 2.313em;
       background-color: $color-white;
       border-radius: 50%;
       display: flex;
@@ -63,3 +63,18 @@
     }
   }
 }
+
+// @media all and (min-width 320px) {
+//   .header {
+//     // background-size:
+//     background-position: 50%;
+//   }
+//   .menu{
+//     width: 2.563em;
+//     height: 2.75em;
+//   }
+// }
+
+// @media and all (max-width 768px) {
+
+// }
