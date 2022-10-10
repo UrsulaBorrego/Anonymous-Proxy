@@ -4,20 +4,26 @@
   background-repeat: no-repeat;
   background-size: 180vh 200vw;
   background-position: 50%;
-  // @media all and (min-width 320px) {
-
-  // }
-
+  @media all and (min-width: 768px) {
+  background-size: 165vh 85vw;
+  }
   .menu{
     width: 1.875em;
     height: 1.875em;
     background-color: $color-medium-blue;
     position: fixed;
     z-index: 100;
+    @media all and (min-width: 768px) {
+    width: 2.688em;
+    height: 2.688em;
+    }
     .img-menu {
         width: 100%;
         height: 100%;
         transform: scale(0.5);
+        @media all and (min-width: 768px) {
+        transform: scale(0.35);
+        }
     }
   }
 
@@ -36,12 +42,18 @@
       font-weight: bold;
       text-transform: uppercase;
       transform: translateY(-35%);
+      @media all and (min-width: 768px) {
+      font-size: 5em;
+      }
     }
     .subtitle-header {
       font-family: $font-familyRoboto;
       color: $color-white;
       position: absolute;
       text-align: center;
+      @media all and (min-width: 768px) {
+      font-size: 1.5em;
+      }
     }
   }
 
@@ -59,27 +71,19 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      @media all and (min-width: 768px) {
+        width: 2.688em;
+        height: 2.688em;
+      }
       .scroll-down {
         width: 45%;
         height: 45%;
+        @media all and (min-width: 768px) {
+        width: 50%;
+        height: 50%;
+        transform: translateY(20%);
+        }
       }
     }
   }
 }
-
-// @media all and (min-width 320px) {
-//   .header {
-//     // background-size:
-//     background-position: 50%;
-//   }
-//   .menu{
-//     width: 2.563em;
-//     height: 2.75em;
-//   }
-//   .title-subtitle-header {
-//     height: 80vh;
-// }
-
-// @media and all (max-width 768px) {
-
-// }

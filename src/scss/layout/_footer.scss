@@ -1,9 +1,13 @@
 .footer {
+  border: solid 3px magenta;
   background-color: $color-dark-blue;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
   gap: 3vh;
+  @media all and (min-width: 768px) {
+  flex-direction: row;
+  }
   .ball-footer {
     display: flex;
     justify-content: center;
@@ -25,18 +29,28 @@
     }
   }
   .nav-footer1 {
+    border: solid 3px green;
     text-align: center;
     margin-top: 4.063em;
     line-height: 1.88;
+    // @media all and (min-width: 768px) {
+    //   text-decoration: none;
+    //   }
   }
-  .nav-footer2{
+  .nav-footer2 {
+    border: solid 3px yellow;
     text-align: center;
-    margin-top: -2%;
     line-height: 1.88;
   }
   .copy-phraseicon {
+    border: solid 3px purple;
     text-align: center;
     margin-top: 5%;
+    @media all and (min-width: 768px) {
+    order: -1;
+    text-align: start;
+    padding-left: 2.5vw;
+    }
     .copy {
       text-transform: none;
       font-family: $font-familyRoboto;
@@ -63,11 +77,3 @@
   font-family: $font-familyRoboto;
   color: $color-white;
 }
-
-// @media and all (max-width 320px) {
-
-// }
-
-// @media and all (max-width 768px) {
-
-// }
