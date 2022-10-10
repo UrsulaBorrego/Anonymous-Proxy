@@ -7,7 +7,11 @@
   @media all and (min-width: 768px) {
   background-size: 165vh 85vw;
   }
-  .menu{
+  @media all and (min-width: 1280px) {
+  background-size: 220vh 70vw;
+  background-position: 40% 80%;
+  }
+  .menu {
     width: 1.875em;
     height: 1.875em;
     background-color: $color-medium-blue;
@@ -17,16 +21,19 @@
     width: 2.688em;
     height: 2.688em;
     }
+    @media all and (min-width: 1280px) {
+    width: 2.75em;
+    height: 2.75em;
+    }
     .img-menu {
-        width: 100%;
-        height: 100%;
-        transform: scale(0.5);
-        @media all and (min-width: 768px) {
-        transform: scale(0.35);
-        }
+      width: 100%;
+      height: 100%;
+      transform: scale(0.5);
+      @media all and (min-width: 768px) {
+      transform: scale(0.35);
+      }
     }
   }
-
   .title-subtitle-header {
     width: 100%;
     height: 80vh;
@@ -44,6 +51,12 @@
       transform: translateY(-35%);
       @media all and (min-width: 768px) {
       font-size: 5em;
+      margin-bottom: -3%;
+      }
+      @media all and (min-width: 1280px) {
+      font-size: 6.25em;
+      padding-inline: 17vw;
+      margin-bottom: -7%;
       }
     }
     .subtitle-header {
@@ -53,10 +66,16 @@
       text-align: center;
       @media all and (min-width: 768px) {
       font-size: 1.5em;
+      padding-left: 30vw;
+      padding-right: 30vw;
+      margin-bottom: -4%;
+      }
+      @media all and (min-width: 1280px) {
+      margin-bottom: -2.5%;
+      // font-size: 1.2em; "Visualmente funciona mejor"
       }
     }
   }
-
   .ball-header {
     display: flex;
     justify-content: center;
@@ -72,8 +91,12 @@
       justify-content: center;
       align-items: center;
       @media all and (min-width: 768px) {
-        width: 2.688em;
-        height: 2.688em;
+      width: 2.688em;
+      height: 2.688em;
+      margin-bottom: -2%;
+      }
+      @media all and (min-width: 1280px) {
+      margin-bottom: 0.3%;
       }
       .scroll-down {
         width: 45%;
