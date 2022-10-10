@@ -47,7 +47,7 @@
     justify-content: center;
     position: absolute;
     z-index: 100;
-    transform: translateY(50%);
+    transform: translateY(150%);
     .ball-scroll {
       width: 2.313em;
       height: 2.313em;
@@ -73,6 +73,8 @@
 //     width: 2.563em;
 //     height: 2.75em;
 //   }
+//   .title-subtitle-header {
+//     height: 80vh;
 // }
 
 // @media and all (max-width 768px) {

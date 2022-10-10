@@ -12,7 +12,7 @@
         font-weight: bold;
         text-transform: capitalize;
         margin-top: 1.3em;
-        padding-inline: 0.8em;
+        text-align: center;
     }
     .article {
         width: 80%;
@@ -20,6 +20,7 @@
         font-family: $font-familyRoboto;
         font-size: 1.125em;
         margin-top: 2.5em;
+        text-align: center;
         .title-article {
             border: solid 3px mediumblue;
             font-family: $font-familyRobotoSlab;
@@ -31,20 +32,18 @@
     }
     .button-orange {
         border: solid 3px $color-orange;
+        width: 8em;
         border-radius: 50px;
         background-color: $color-orange;
         font-family: $font-familyRoboto;
         color: $color-white;
         font-size: 1.25em;
         font-weight: 500;
-        border: solid 3px green;
-        padding: 0.4em 1.4em;
+        text-align: center;
+        padding: 0.3em ;
         margin-block: 2.563em 3em;
-        margin-inline: 4.25em;
     }
 }
-
-// RESOLVER CENTRADO TEXTOS Y BUTTON
 
 // @media and all (max-width 320px) {
 
