@@ -30,6 +30,10 @@
         font-size: 1.25em;
         font-weight: 500;
         padding: 2% 8%;
+        &:hover {
+            color: $color-medium-blue;
+            border-color: $color-medium-blue;
+        }
     }
 }
 

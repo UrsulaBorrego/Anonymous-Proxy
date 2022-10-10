@@ -1,33 +1,54 @@
 .articles {
-    border: solid 3px magenta;
+    // border: solid 3px magenta;
     background-color: #eff9ff;
     display: grid;
     grid-template-rows: auto auto auto;
     justify-items: center;
-
     .title-articles {
-        border: solid 3px green;
+        // border: solid 3px green;
         font-family: $font-familyRobotoSlab;
         font-size: 1.5em;
         font-weight: bold;
         text-transform: capitalize;
         margin-top: 1.3em;
         text-align: center;
+        @media all and (min-width: 320px) {
+            font-size: 1.625em;
+        }
+    }
+    .all-articles {
+        text-align: center;
+        padding-left: 4.5em;
+        padding-right: 4.5em;
+        @media all and (min-width: 320px) {
+            // background-color: yellow;
+            display: grid;
+            justify-items: center;
+            justify-content: center;
+            grid-template-columns: auto auto auto;
+            margin-inline: 2.4vw;
+        }
     }
     .article {
-        width: 80%;
-        border: solid 3px magenta;
+        // border: solid 3px magenta;
         font-family: $font-familyRoboto;
-        font-size: 1.125em;
+        font-size: 1.05em;
         margin-top: 2.5em;
         text-align: center;
+        line-height: 28px;
         .title-article {
-            border: solid 3px mediumblue;
+            // border: solid 3px mediumblue;
             font-family: $font-familyRobotoSlab;
             font-weight: bold;
+            @media all and (min-width: 320px) {
+                margin-bottom: 0.7em;
+                font-size: 1.3em;
+            }
         }
         .text-article {
-            border: solid 3px rgb(199, 215, 21);
+            @media all and (min-width: 320px) {
+                font-size: 1.1em;
+            }
         }
     }
     .button-orange {
@@ -40,15 +61,15 @@
         font-size: 1.25em;
         font-weight: 500;
         text-align: center;
-        padding: 0.3em ;
+        padding: 0.4em;
         margin-block: 2.563em 3em;
+        @media all and (min-width: 320px) {
+            width: 11em;
+            margin-left: 1.3em;
+        }
+        &:hover {
+            background-color: $color-medium-blue;
+            border-color: $color-medium-blue;
+        }
     }
 }
-
-// @media and all (max-width 320px) {
-
-// }
-
-// @media and all (max-width 768px) {
-
-// }
