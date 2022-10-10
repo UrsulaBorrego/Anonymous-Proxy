@@ -15,6 +15,9 @@
         @media all and (min-width: 768px) {
         font-size: 1.625em;
         }
+        @media all and (min-width: 1280px) {
+        font-size: 2em;
+        }
     }
     .all-articles {
         text-align: center;
@@ -36,6 +39,9 @@
         margin-top: 2.5em;
         text-align: center;
         line-height: 28px;
+        @media all and (min-width: 1280px) {
+        margin-inline: 1.25em;
+        }
         .title-article {
             // border: solid 3px mediumblue;
             font-family: $font-familyRobotoSlab;
@@ -66,6 +72,11 @@
         @media all and (min-width: 768px) {
         width: 11em;
         margin-left: 1.3em;
+        }
+        @media all and (min-width: 1280px) {
+        width: 13em;
+        height: 2.3em;
+        margin-top: 8%;
         }
         &:hover {
             background-color: $color-medium-blue;
