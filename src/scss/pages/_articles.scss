@@ -1,11 +1,9 @@
 .articles {
-    // border: solid 3px magenta;
     background-color: #eff9ff;
     display: grid;
     grid-template-rows: auto auto auto;
     justify-items: center;
     .title-articles {
-        // border: solid 3px green;
         font-family: $font-familyRobotoSlab;
         font-size: 1.5em;
         font-weight: bold;
@@ -24,7 +22,6 @@
         padding-left: 4.5em;
         padding-right: 4.5em;
         @media all and (min-width: 768px) {
-        // background-color: yellow;
         display: grid;
         justify-items: center;
         justify-content: center;
@@ -33,7 +30,6 @@
         }
     }
     .article {
-        // border: solid 3px magenta;
         font-family: $font-familyRoboto;
         font-size: 1.05em;
         margin-top: 2.5em;
@@ -43,7 +39,6 @@
         margin-inline: 1.25em;
         }
         .title-article {
-            // border: solid 3px mediumblue;
             font-family: $font-familyRobotoSlab;
             font-weight: bold;
             @media all and (min-width: 768px) {

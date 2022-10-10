@@ -3,6 +3,11 @@
     padding-inline: 3.5vw 3.5vw;
     margin-bottom: 8vh;
     display: inline-block;
+    @media all and (min-width: 768px) {
+    margin-left: 1em;
+    padding-inline: 17.10em;
+    margin-bottom: 5%;
+    }
     .pretitle-hero {
         color: $color-light-blue;
         font-size: 0.875;
@@ -10,17 +15,23 @@
         margin-top: 10%;
         margin-bottom: 2%;
         @media all and (min-width: 768px) {
-            
+        margin-top: -3%;
         }
-        // @media all and (min-width: 1280px) {
-            
-        // }
+        @media all and (min-width: 1280px) {
+        font-size: 1em;    
+        }
     }
     .title-hero {
         font-family: $font-familyRobotoSlab;
         font-size: 1.5em;
         font-weight: bold;
         text-transform: capitalize;
+        @media all and (min-width: 768px) {
+        font-size:  1.625em;
+        }
+        @media all and (min-width: 1280px) {
+        font-size: 2em;
+        }
     }
     .p-hero {
         font-size: 1.125em;
@@ -28,6 +39,12 @@
         margin-top: 7%;//20px;
         margin-bottom: 15%;
         line-height: 1.875em;
+        @media all and (min-width: 768px) {
+        font-size:  1.25em;
+        padding-right: 5%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        }
     }
     .button-white {
         border: solid 3px $color-orange;
@@ -36,6 +53,13 @@
         font-size: 1.25em;
         font-weight: 500;
         padding: 2% 8%;
+        @media all and (min-width: 768px) {
+        padding-block: 1%;
+        padding-inline: 4%;
+        }
+        @media all and (min-width: 1280px) {
+        padding-inline: 9%;
+        }
         &:hover {
             color: $color-medium-blue;
             border-color: $color-medium-blue;
