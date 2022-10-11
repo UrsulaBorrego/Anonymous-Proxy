@@ -76,10 +76,11 @@
         width: 13em;
         height: 2.3em;
         margin-top: 5%;
+        text-transform: capitalize;
         }
         &:hover {
-            background-color: $color-medium-blue;
-            border-color: $color-medium-blue;
+            background-color: $color-dark-blue;
+            border-color: $color-dark-blue;
         }
     }
 }

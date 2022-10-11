@@ -8,12 +8,18 @@
   flex-direction: row;
   padding-bottom: 5.55vh;
   }
+  @media all and (min-width: 1280px) {
+  padding-inline: 24vw;
+  }
   .ball-footer {
     display: flex;
     justify-content: center;
     position: absolute;
     z-index: 100;
     transform: translateY(-50%);
+    @media all and (min-width: 1280px) {
+    padding-right: 45vw;
+    }
     .ball-arrow{
       width: 2.813em;
       height: 2.813em;
@@ -83,4 +89,7 @@
   text-decoration: none;
   font-family: $font-familyRoboto;
   color: $color-white;
+  &:hover {
+    color: $color-orange;
+  }
 }
