@@ -25,6 +25,12 @@
     width: 2.75em;
     height: 2.75em;
     }
+    &:hover {
+      background-color: $color-orange;
+      width: 4em;
+      height: 4em;
+      transition: 1s;
+    }
     .img-menu {
       width: 100%;
       height: 100%;
@@ -56,7 +62,7 @@
       @media all and (min-width: 1280px) {
       font-size: 6.25em;
       padding-inline: 17vw;
-      margin-bottom: -7%;
+      margin-bottom: -5%;
       }
     }
     .subtitle-header {
@@ -72,7 +78,6 @@
       }
       @media all and (min-width: 1280px) {
       margin-bottom: -2.5%;
-      // font-size: 1.2em; "Visualmente funciona mejor"
       }
     }
   }

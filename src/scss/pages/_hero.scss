@@ -4,7 +4,6 @@
     margin-bottom: 8vh;
     display: inline-block;
     @media all and (min-width: 768px) {
-    margin-left: 1em;
     margin-bottom: 5%;
     }
     @media all and (min-width: 1280px) {
@@ -65,6 +64,8 @@
         &:hover {
             color: $color-medium-blue;
             border-color: $color-medium-blue;
+            padding-right: 15%;
+            transition: 1s;
         }
     }
 }

@@ -26,7 +26,6 @@
         justify-items: center;
         justify-content: center;
         grid-template-columns: auto auto auto;
-        margin-inline: 2.4vw;
         column-gap: 5%;
         }
         @media all and (min-width: 1280px) {
@@ -81,6 +80,8 @@
         &:hover {
             background-color: $color-dark-blue;
             border-color: $color-dark-blue;
+            padding-top: 1%;
+            transition: 1s;
         }
     }
 }
