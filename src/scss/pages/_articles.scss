@@ -27,6 +27,10 @@
         justify-content: center;
         grid-template-columns: auto auto auto;
         margin-inline: 2.4vw;
+        column-gap: 5%;
+        }
+        @media all and (min-width: 1280px) {
+        column-gap: 7%;
         }
     }
     .article {
@@ -71,7 +75,7 @@
         @media all and (min-width: 1280px) {
         width: 13em;
         height: 2.3em;
-        margin-top: 8%;
+        margin-top: 5%;
         }
         &:hover {
             background-color: $color-medium-blue;

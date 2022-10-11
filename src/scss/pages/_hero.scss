@@ -5,8 +5,10 @@
     display: inline-block;
     @media all and (min-width: 768px) {
     margin-left: 1em;
-    padding-inline: 17.10em;
     margin-bottom: 5%;
+    }
+    @media all and (min-width: 1280px) {
+    padding-inline: 17.1em;
     }
     .pretitle-hero {
         color: $color-light-blue;
