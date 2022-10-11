@@ -70,16 +70,25 @@
       font-size: 0.875em;
     }
     .phraseicon {
-      text-transform: none;
       font-family: $font-familyRoboto;
       color: $color-white;
-      font-size: 0.875em;
+      font-size: 0.87em;
       text-transform: lowercase;
       margin-top: 3%;
       margin-bottom: 7vh;
-      .icon-heart {
-        width: 0.75em;
-        height: 0.75em;
+      display: flex;
+      align-items: flex-end;
+      padding-inline: 32%;
+      @media all and (min-width: 768px) {
+      padding-left: 0vw;
+      padding-right: 14vw;
+      }
+      @media all and (min-width: 1280px) {
+      padding-right: 5.5vw;
+      }
+      .fa-heart {
+        color: $color-orange;
+        padding-inline: 0.5vw;
       }
     }
   }
