@@ -87,6 +87,10 @@
     position: absolute;
     z-index: 100;
     transform: translateY(150%);
+    display: none;
+    @media all and (min-width: 768px) {
+    display: flex;
+    }
     .ball-scroll {
       width: 2.313em;
       height: 2.313em;
