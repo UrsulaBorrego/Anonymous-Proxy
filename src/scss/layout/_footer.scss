@@ -5,11 +5,11 @@
   flex-direction: column;
   gap: 3vh;
   @media all and (min-width: 768px) {
-  flex-direction: row;
-  padding-bottom: 5.55vh;
+    flex-direction: row;
+    padding-bottom: 5.55vh;
   }
   @media all and (min-width: 1280px) {
-  padding-inline: 24vw;
+    padding-inline: 24vw;
   }
   .ball-footer {
     display: flex;
@@ -18,10 +18,10 @@
     z-index: 100;
     transform: translateY(-50%);
     @media all and (min-width: 1280px) {
-    width: 50%;
-    padding-left: 3.75em;
+      width: 50%;
+      padding-left: 3.75em;
     }
-    .ball-arrow{
+    .ball-arrow {
       width: 2.813em;
       height: 2.813em;
       background-color: $color-white;
@@ -42,29 +42,29 @@
     margin-top: 4.063em;
     line-height: 1.88;
     @media all and (min-width: 768px) {
-    margin-top: 6.9vh;
-    text-align: start;
-    list-style: none;
+      margin-top: 6.9vh;
+      text-align: start;
+      list-style: none;
     }
   }
   .nav-footer2 {
     text-align: center;
     line-height: 1.88;
     @media all and (min-width: 768px) {
-    margin-top: 6.9vh;
-    text-align: start;
-    padding-right: 2.438em;
-    list-style: none;
+      margin-top: 6.9vh;
+      text-align: start;
+      padding-right: 2.438em;
+      list-style: none;
     }
   }
   .copy-phraseicon {
     text-align: center;
     margin-top: 5%;
     @media all and (min-width: 768px) {
-    order: -1;
-    text-align: start;
-    padding-left: 5vw;
-    margin-top: 6.9vh;
+      order: -1;
+      text-align: start;
+      padding-left: 5vw;
+      margin-top: 6.9vh;
     }
     .copy {
       text-transform: none;
@@ -83,11 +83,11 @@
       align-items: flex-end;
       padding-inline: 32%;
       @media all and (min-width: 768px) {
-      padding-left: 0vw;
-      padding-right: 14vw;
+        padding-left: 0vw;
+        padding-right: 22vw;
       }
       @media all and (min-width: 1280px) {
-      padding-right: 5.5vw;
+        padding-right: 5.5vw;
       }
       .fa-heart {
         color: $color-orange;
